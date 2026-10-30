@@ -215,13 +215,17 @@
         <label for="classSelect">Sınıfınızı Seçiniz</label>
         <select id="classSelect" required>
           <option value="" disabled selected>Sınıf seçiniz...</option>
-          <option value="12-A Proje">12-A Proje (Fen Sosyal)</option>
-          <option value="12-B Proje">12-B Proje (Fen Sosyal)</option>
-          <option value="12-C">12-C (Sözel)</option>
-          <option value="12-D">12-D (Dil)</option>
-          <option value="11-A">11-A (Sayısal)</option>
-          <option value="Proje 11-B">Proje 11-B (Eşit Ağırlık)</option>
-          <option value="11/C">11/C (Sözel)</option>
+          <option value="12-A Proje">12-A Proje (Fen Sosyal - Sayısal)</option>
+          <option value="12-B Proje">12-B Proje (Fen Sosyal - Eşit Ağırlık)</option>
+          <option value="12-A">12-A (İHL - Sayısal)</option>
+          <option value="12-B">12-B (İHL - Eşit Ağırlık)</option>
+          <option value="12-C">12-C (İHL - Sözel)</option>
+          <option value="12-D">12-D (İHL - Dil)</option>
+          <option value="11-A Proje">11-A Proje (Fen Sosyal - Sayısal)</option>
+          <option value="Proje 11-B">Proje 11-B (Fen Sosyal - Eşit Ağırlık)</option>
+          <option value="11-A">11-A (İHL - Sayısal)</option>
+          <option value="11-B">11-B (İHL - Eşit Ağırlık)</option>
+          <option value="11/C">11/C (İHL - Sözel)</option>
         </select>
       </div>
 
@@ -345,6 +349,40 @@
         { name: "Zeynep Eylül Bedir", code: "1711" },
         { name: "Elif Sene Bedir", code: "8527" }
       ],
+      "12-A": [
+        { name: "Meryem Tuba Sırtıkara", code: "4432" },
+        { name: "Melek Büşra Soylu", code: "5374" },
+        { name: "Sümeyye Hanne Gökoç", code: "2169" },
+        { name: "Havva Ebrar Çorum", code: "3803" },
+        { name: "Güller Koç", code: "9751" }
+      ],
+      "12-B": [
+        { name: "Sare Merra", code: "5010" },
+        { name: "Berna Balcı", code: "3677" },
+        { name: "Reyyan Cebeci", code: "8573" },
+        { name: "Zeynep Elif Karakum", code: "7216" },
+        { name: "Efnan Eylül Şahin", code: "5422" },
+        { name: "Cemre Su Nohut", code: "4598" },
+        { name: "Ayça Şeyma Yıllar", code: "6313" },
+        { name: "Hesnagül Şahin", code: "1916" },
+        { name: "Asya Ecrin Kulaber", code: "4752" },
+        { name: "Yasemin Büşra Dilemek", code: "1525" },
+        { name: "Derya Demirel", code: "6168" },
+        { name: "Şevval Zeynep Uysal", code: "7572" },
+        { name: "Şevval Ünal", code: "5386" },
+        { name: "Ayşe Hafsa Başpınar", code: "2084" },
+        { name: "Ümmügülsüm Dülger", code: "4456" },
+        { name: "Nida İkbal Gece", code: "6155" },
+        { name: "Nisa Nur Dolu", code: "4483" },
+        { name: "Ecrin Zehra Yükselen", code: "9179" },
+        { name: "Reyyan Akcın", code: "7482" },
+        { name: "Hanne Gül Kurum", code: "8517" },
+        { name: "Duru Topçu", code: "3340" },
+        { name: "Ela Nuray", code: "5339" },
+        { name: "Ebrar Zeynep Başpınar", code: "3287" },
+        { name: "Ecrin Turan", code: "5040" },
+        { name: "Ayşe Reyyan Ece", code: "9830" }
+      ],
       "12-C": [
         { name: "Hatice Demir", code: "2824" },
         { name: "Nurulayn Eleysa Kılıç", code: "1409" },
@@ -358,6 +396,32 @@
         { name: "Tuana Şahin", code: "3664" },
         { name: "Nisa Bayrak", code: "7065" },
         { name: "Ümmü G. Yazıcı", code: "6820" }
+      ],
+      "11-A Proje": [
+        { name: "Sümeyye H. Sarıdoğan", code: "5304" },
+        { name: "Berra Güven", code: "8019" },
+        { name: "Fatma Zehra Karaduman", code: "7543" },
+        { name: "Berra Aydın", code: "6930" },
+        { name: "İlknur Alkan", code: "4593" },
+        { name: "Ayşe Naz Yiğit", code: "3266" },
+        { name: "Beyza Saatçi", code: "9348" },
+        { name: "Şevval Tuğçe Eröz", code: "9085" },
+        { name: "Beren Cansu Gökoç", code: "2489" },
+        { name: "Ekin İclal Köseoğlu", code: "1771" },
+        { name: "Zeynep Aydoğdu", code: "2796" }
+      ],
+      "Proje 11-B": [
+        { name: "Afra Hayırmaz", code: "9785" },
+        { name: "Melek Betül Ercan", code: "3045" },
+        { name: "Semanur Karcı", code: "7201" },
+        { name: "Melike Zeynep Taş", code: "2291" },
+        { name: "Betül Nisa Çelikkol", code: "5803" },
+        { name: "Zeynep Doğan", code: "6925" },
+        { name: "Esmanur Kara", code: "4150" },
+        { name: "Hayrunnisa Arışhan", code: "2139" },
+        { name: "İrem Aluç Öz", code: "1750" },
+        { name: "Zeynep Ecrin Aksu", code: "4733" },
+        { name: "Zeynep Sena Öztürk", code: "5741" }
       ],
       "11-A": [
         { name: "Zeynep Taştemel", code: "2679" },
@@ -374,18 +438,18 @@
         { name: "Hatice Kübra Akdeniz", code: "4257" },
         { name: "Şevval Girgin", code: "9928" }
       ],
-      "Proje 11-B": [
-        { name: "Afra Hayırmaz", code: "9785" },
-        { name: "Melek Betül Ercan", code: "3045" },
-        { name: "Semanur Karcı", code: "7201" },
-        { name: "Melike Zeynep Taş", code: "2291" },
-        { name: "Betül Nisa Çelikkol", code: "5803" },
-        { name: "Zeynep Doğan", code: "6925" },
-        { name: "Esmanur Kara", code: "4150" },
-        { name: "Hayrunnisa Arışhan", code: "2139" },
-        { name: "İrem Aluç Öz", code: "1750" },
-        { name: "Zeynep Ecrin Aksu", code: "4733" },
-        { name: "Zeynep Sena Öztürk", code: "5741" }
+      "11-B": [
+        { name: "Reyhan Yaman", code: "3504" },
+        { name: "Büşra Bayırlı", code: "3621" },
+        { name: "Firdevsnur Ün", code: "7916" },
+        { name: "Hümeyra Ayşe Kaya", code: "2040" },
+        { name: "Emel İsoyunucu", code: "7304" },
+        { name: "Zümra Gaf", code: "7252" },
+        { name: "Zeynep Nur Kergidenoğlu", code: "8668" },
+        { name: "Nisa Töngir", code: "9669" },
+        { name: "İrem Akınyüzel", code: "5119" },
+        { name: "Zeynep Zülal Aluç", code: "1188" },
+        { name: "Eslem Yaren Korataya", code: "2876" }
       ],
       "11/C": [
         { name: "Melike Bay", code: "2307" },
@@ -525,7 +589,7 @@
       statusMsg.style.display = 'none';
     });
 
-    // 1. GİRİŞ YAP
+    // 1. GİRİŞ YAP & DOĞRULA
     loginBtn.addEventListener('click', function() {
       const selectedClass = classSelect.value;
       const selectedStudentName = studentSelect.value;
@@ -578,7 +642,7 @@
       renderChartData();
     }
 
-    // 2. GEÇMİŞİ GETİR
+    // 2. GEÇMİŞİ GETİR (READ)
     fetchHistoryBtn.addEventListener('click', function() {
       const selectedStudentName = studentSelect.value;
       
@@ -616,7 +680,7 @@
       document.body.appendChild(script);
     });
 
-    // 3. ANINDA KAYDETME
+    // 3. ANINDA KAYDETME (SAVE)
     window.handleSaveResponse = function(res) {
       statusMsg.style.display = 'block';
       statusMsg.style.color = '#10B981';
